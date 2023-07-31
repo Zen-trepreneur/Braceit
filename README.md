@@ -12,3 +12,12 @@ The chatbot will process your query using LangChain, GPT LLMs and ChromaDB as me
 The chatbot's response will be displayed under the text input box as below:
 ![image](https://github.com/Zen-trepreneur/Braceit/assets/59253439/2be3f526-b06a-4418-811f-5ac1c97e554c)
 
+## ChromaDB is employed for semantic search, which involves the following steps:
+
+Vectorization of Documents: The knowledge-related document is converted into numerical embeddings using Sentence Transformer,captures semantic information from the text.
+
+Indexing Documents: The vectorized documents are indexed into ChromaDB, optimizing for similarity search based on embeddings.
+
+Similarity Search: When a user submits a query, the chatbot performs a similarity search in ChromaDB to find the most relevant documents related to the query based on their semantic similarity with the query's embedding.
+![image](https://github.com/Zen-trepreneur/Branceit/assets/59253439/d076762f-34c5-4173-983e-075ce8c9a6f8)
+
