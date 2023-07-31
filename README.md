@@ -12,6 +12,7 @@ The chatbot will process your query using LangChain, GPT LLMs and ChromaDB as me
 The chatbot's response will be displayed under the text input box as below:
 ![image](https://github.com/Zen-trepreneur/Braceit/assets/59253439/2be3f526-b06a-4418-811f-5ac1c97e554c)
 
+Alongside, the Colab file 'Branceit_ML.ipynb' is the MVP for the validation of the solution architecture.
 ## ChromaDB is employed for semantic search, which involves the following steps:
 
 Vectorization of Documents: The knowledge-related document is converted into numerical embeddings using Sentence Transformer,captures semantic information from the text.
