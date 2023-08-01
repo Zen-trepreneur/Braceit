@@ -1,4 +1,5 @@
 # Branceit
+# [BranceIT Writeup Doc](https://docs.google.com/document/d/e/2PACX-1vS6RRv4jSkaTzYiYVfYf5GyUTrRhPKn_GYsRJCusKHtHtpeTeKCNLaCp6E7OkSjGw/pub)
 ![arch](https://github.com/Zen-trepreneur/Braceit/assets/59253439/1544822d-d381-4ffd-8b56-ab9ab1bfb99e)
 ## Built using Chroma DB, LangChain, OpenAI API and Streamlit.
 A Contexutal Parser Bot for Question Answer Generation.
